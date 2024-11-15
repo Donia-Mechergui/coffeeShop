@@ -1,0 +1,121 @@
+.pro-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 2rem;
+    align-items: center;
+    cursor: pointer;
+}
+.pro-content .row img{
+    width: 100%;
+    height: 240px;;
+    border-radius: 10px;
+}
+.pro-content .row{
+    transition:  all .40s ease;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    padding: 10px;
+}
+.pro-content .pro-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.pro-content .pro-text h4{
+    font-size: 23px;
+    color: rgb(246, 217, 164); 
+    margin-left: 10px;
+}
+.pro-content .pro-text h5{
+    font-size: 25px;
+    color: rgb(246, 217, 164); 
+    margin-right: 10px;
+}
+.pro-content .row p{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+.pro-content .row:hover{
+    transform: scale(1.1);
+
+}
+.btn {
+    padding: 0.8rem 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: rgb(246, 217, 164);
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgb(246, 217, 164);
+}
+.btn:hover{
+    color: rgb(246, 217, 164);
+    border-color: rgb(246, 217, 164);
+    background-color: #fff;
+ }
+.pro-content .stars{
+    color: rgb(246, 217, 164);
+   text-align: center;
+    font-size: 17px;
+}
+.product{
+    margin: 12rem 0 4rem;
+}
+.product .heading {
+    font-size: 4em; 
+    text-align: center;
+    margin:50px 0 50px;
+    font-weight: bolder;
+    color: black; 
+
+}
+
+.product .heading span {
+    color: rgb(246, 217, 164); 
+}
+.banner .row {
+    height: 25rem;
+    margin: 10px;
+    border: 1px solid #574736;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center; 
+    /* flex-direction: row-reverse; 
+    justify-content: space-between;  */
+    margin-bottom: 70px;
+}
+
+.banner .row  .content{
+    flex: 1; 
+    justify-content: left;
+    padding:5rem;
+}
+.banner .row  .content h2{
+    font-size:  2rem;
+    color: #000;
+    margin: 20px 0 20px ;
+}
+.banner .row  .content h3{
+    font-size:3rem;
+    color: #000;
+    font-weight: bold;
+}
+.banner .row .image {
+    height: 20rem;
+    width: 34rem;
+    margin-right: 70px;
+}
+.banner .row .image img {
+    object-fit: cover; 
+    width: 100%;
+    height: 100%;
+   
+}

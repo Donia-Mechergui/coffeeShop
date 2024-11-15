@@ -1,0 +1,83 @@
+
+
+.dishes{
+    margin: 12rem 2rem 4rem 2rem;
+}
+.dishes .heading {
+    font-size: 4em; 
+    text-align: center;
+    margin:50px 0 50px;
+    font-weight: bolder;
+    color: black; 
+
+}
+
+.dishes .heading span {
+    color: rgb(246, 217, 164); 
+}
+.dishes .box-container{
+    /* background-color: #000 !important;; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,(4,1 fr));
+    /* grid-gap:1.5rem; */
+    margin-top: 80px;
+   
+}
+.dishes .box-container .box{
+    padding: 2rem;
+    /* border: 0.1rem solid rgba(0, 0, 0, 0.2); */
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.dishes .box-container .box img{
+    height: 17rem;
+    width:17rem;;
+    animation: float 3s linear infinite;
+    border-radius: 100%;
+
+}
+@keyframes float{
+    0%,
+    100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(1rem);
+    }
+}
+.dishes .box-container  h3{
+    color: black;
+    font-size: 2.5rem;
+    margin: 30px 0 15px;
+
+}
+.dishes .box-container .stars i{
+    font-size: 1.7rem;
+    color: rgb(246, 217, 164);
+    margin-bottom: 10px;
+}
+.dishes .box-container .box span{
+    font-size: 2.5rem;
+    color: #f8bc7d;
+    margin-right:1rem ;
+    font-weight: bolder;
+}
+.btn {
+    padding: 0.8rem 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: rgb(246, 217, 164);
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgb(246, 217, 164);
+    margin-left: 25px;
+}
+.btn:hover{
+    color: #fff;
+    border-color: rgb(246, 217, 164);
+    background-color: rgb(246, 217, 164);
+ }

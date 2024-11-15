@@ -1,0 +1,15 @@
+scroll up 
+ #scroll-up{
+    position: fixed;
+    top: -120%;
+    right: 2rem;
+    padding: 0.5rem 1.2rem;
+    font-size: 4rem;
+    color: #fff;
+    background-color: rgb(246, 217, 164);
+    border-radius: 0.5rem;
+    transition: 1s linear;
+}
+#scroll-up .active{
+    top: calc(100% - 12rem);
+}
